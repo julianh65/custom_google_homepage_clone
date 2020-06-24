@@ -1,0 +1,27 @@
+body {
+    background-color: #E2DEDB;
+    font-family: europa, sans-serif;
+    font-weight: 400;    
+    font-style: normal;
+    color: #263B2A;
+}
+
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 20fr 1fr;
+}
+
+.top-bar{
+    background-color: #81917E;
+    
+}
+
+.search {
+    background-color: rgba(87, 172, 108, 0.377);
+}
+
+.bottom-bar {
+    background-color:#6E5E3E;
+}
