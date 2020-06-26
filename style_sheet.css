@@ -1,27 +1,118 @@
 body {
-    background-color: #E2DEDB;
     font-family: europa, sans-serif;
     font-weight: 400;    
     font-style: normal;
-    color: #263B2A;
+    margin: 0;
+    padding: 0;
 }
 
 
 .container{
     display: grid;
-    height: 100vh;
-    grid-template-rows: 1fr 20fr 1fr;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    height: 100vh !important;
+    grid-template-rows: 1fr 25fr 1fr;
+    background-image: url(scott-webb-eA2z1JSzZFI-unsplash.jpg);
+    background-position: 0px -450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .top-bar{
-    background-color: #81917E;
+    background-color: rgba(96, 107, 95, 0.8);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 1.5em;
     
 }
 
-.search {
-    background-color: rgba(87, 172, 108, 0.377);
-}
 
 .bottom-bar {
-    background-color:#6E5E3E;
+    background-color: rgba(96, 107, 95, 0.8);
 }
+
+ul{
+    display: flex;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0em 1.5em;
+}
+
+.top-logo{
+    height: 1.2em;
+    width: 1.2em;
+}
+
+.logo-container{
+    padding: 0em 1em;
+}
+
+
+.search{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 6.5rem;
+    border-radius: 50px;
+}
+
+
+
+#search-components {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    width: 30rem;
+    height: 18rem;
+    align-self: center;
+}
+
+#google-logo-container {
+    height: auto;
+    width: auto;
+    justify-content: center;
+    
+}
+
+
+#google-logo {
+    height: 75%;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+
+
+
+}
+
+#search-bar-container {
+    height: 5em;
+    margin: auto;
+
+}
+
+#search-bar{
+    width: 28rem;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+#buttons {
+    margin: auto;
+    height: 5em;
+
+}
+
+
